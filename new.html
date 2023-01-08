@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Home page</h1>
+
+    <h1 id="email">email</h1>
+
+    <h1 id="name">name</h1>
+
+
+    <table border="4" style="width: 600px;">
+        <tr>
+            <th>S .no</th>
+            <th>User Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Role</th>
+            <th>View</th>
+        </tr>
+
+    </table>
+
+    <br>
+
+
+    <button>Add Contact List </button>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <script>
+
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCQs_aOgRESl-ynxcd93efWQPAakdgc8oU",
+              authDomain: "saylani-side.firebaseapp.com",
+              databaseURL:"saylani-side-default-rtdb.firebaseio.com",
+              projectId: "saylani-side",
+              storageBucket: "saylani-side.appspot.com",
+              messagingSenderId: "146947861521",
+              appId: "1:146947861521:web:48df1a874f35765cabd5b0"
+        };
+
+        // const app = initializeApp(firebaseConfig);
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="./new.js">
+
+    </script>
+    
+</body>
+</html>
